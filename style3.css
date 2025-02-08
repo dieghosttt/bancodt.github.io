@@ -1,0 +1,103 @@
+body {
+    font-family: Arial;
+    color: #333;
+    background-color: #f3f4f4;
+}
+
+header {
+    background-color: #0fcb2e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+     color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s; 
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: ; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0fcb2e;
+    border-bottom: 2px solid #004a99;
+    padding-bottom: 10px;
+}
+
+section label {
+    display: flex;
+}
+
+.fondo {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('logo.jpg');
+background-size: cover;
+background-position: center;
+filter: blur(8px);
+z-index: -1; 
+}
+
+.boton {
+    display: flex;
+    padding: 10px 10px;
+    background-color: #0fcb2e;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    transition: transform 0.3s ease;
+}
+.boton:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    display: inline-flex;
+    padding: 10px 10px;
+    background-color: #0fcb2e;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

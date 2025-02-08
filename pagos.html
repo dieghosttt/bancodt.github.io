@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagos</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+    <div class="fondo"></div>
+    <section>
+        <h2>Transferencias</h2>
+        <form>
+            <label for="beneficiario">Nombre del beneficiario:</label>
+            <input type="text" required>
+            <br><br>
+            <label for="cuenta">Número de cuenta:</label>
+            <input type="text" required>
+            <br><br>
+            <label for="monto">Monto:</label>
+            <input type="number" required>
+            <br><br>
+            <button type="submit" class="boton">Realizar Transferencia</button>
+        </form>
+    </section>
+    <section>
+        <h2>Historial de Pagos</h2>
+        <table border="1">
+                    <th>Fecha</th>
+                    <th>Usuario</th>
+                    <th>Monto</th>
+                    <tbody>
+                    <td>2025-07-12</td>
+                    <td>Ibrahim Pacheco</td>
+                    <td>$150.00</td>
+                <tr>
+                    <td>2025-01-23</td>
+                    <td>Juan Fletes</td>
+                    <td>$500.00</td>
+                </tr>
+                <tr>
+                    <td>2025-04-03</td>
+                    <td>Leomar Pinto</td>
+                    <td>$200.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <a href="inicio.html" class="btn">Volver</a>
+    </section>
+</body>
+</html>
